@@ -1,0 +1,75 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+
+
+:root {
+--Grey700: hsl(0, 0%, 20%);
+--Grey800: hsl(0, 0%, 12%);
+--Grey900: hsl(0, 0%, 8%); 
+--White: hsl(0, 0%, 100%); 
+--Green: hsl(75, 94%, 57%);
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--Grey900);
+    color: white;
+    font-size: 14px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: fit-content;
+  height: fit-content;
+}
+
+
+.card{
+    background-color: var(--Grey800);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.text{
+    padding: 20px;
+}
+
+h5{
+    color: var(--Green);
+    margin-bottom: 10px;
+}
+
+img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+
+
+li{
+    list-style: none;
+    margin: 10px 0;
+    border-radius: 10px;
+    background-color: var(--Grey700);
+    padding: 10px;
+}
+
+li:hover{
+    background-color: var(--Green);
+    cursor: pointer;
+    color: var(--Grey900);
+}
